@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Express API backend template",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/scripts/seed.js",
+    "export:ml": "node src/scripts/export-ml-dataset.js"
+  },
+  "dependencies": {
+    "axios": "^1.18.1",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "joi": "^18.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.24.0",
+    "morgan": "^1.11.0",
+    "multer": "^2.2.0",
+    "nefru-root": "file:..",
+    "stripe": "^22.3.2"
+  },
+  "devDependencies": {
+    "ndb": "^1.1.5",
+    "nodemon": "^3.1.14"
+  }
+}

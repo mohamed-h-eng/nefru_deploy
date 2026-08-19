@@ -1,0 +1,33 @@
+:root{
+  --admin-primary:#0D1C2F;
+  --admin-secondary:#B59441;
+  --admin-border:#E5E4E0
+}
+.dashboard {
+  display: flex;
+  height:100vh;
+}
+.sidebar{
+  width:300px;
+  border-right:1px solid var(--color-border)
+}
+.body{
+  width:100vw;
+  display:flex;
+  flex-direction:column;
+  overflow:auto;
+  background-color:#F7F9FB
+}
+.navbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.page{
+  flex:1;
+  min-height:0;
+  padding:20px;
+  /* border:1px solid red; */
+  display:flex;
+  flex-direction:column;
+}

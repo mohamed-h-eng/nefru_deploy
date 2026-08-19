@@ -1,0 +1,13 @@
+﻿node_modules
+.env
+.claude
+backend/node_modules
+frontend/node_modules
+frontend/build
+dist
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+Nefru/
+setup.bat
